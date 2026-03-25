@@ -499,6 +499,7 @@ ul {
 
 .about__image-wrap {
   position: relative;
+  align-self: start;
 }
 
 .about__img {
@@ -506,6 +507,7 @@ ul {
   max-width: 480px;
   height: auto;
   display: block;
+  object-fit: contain;
   border-radius: var(--radius);
   margin-inline: auto;
 }
